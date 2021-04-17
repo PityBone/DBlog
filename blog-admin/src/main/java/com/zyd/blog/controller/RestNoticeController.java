@@ -98,7 +98,7 @@ public class RestNoticeController {
             noticeService.updateSelective(notice);
         } catch (Exception e) {
             e.printStackTrace();
-            return ResultUtil.error("通知发布失败，状态不变！");
+            return ResultUtil.error("通知发布失败，状态不变！ ");
         }
         return ResultUtil.success("该通知已发布，可去前台页面查看效果！");
     }
